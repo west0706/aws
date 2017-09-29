@@ -6,9 +6,12 @@ import time
 
 
 while True:
-	response = urllib2.urlopen('http://gmdpapi.eland.co.kr:8001')
+	response = urllib2.urlopen('http://gmdpapid.eland.co.kr:8001')
 	code = response.getcode()
 	print code
 	#html = response.read()
 	#print html
 	time.sleep(10)
+
+
+print 'version update'	
