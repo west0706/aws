@@ -14,4 +14,4 @@ while True:
 	time.sleep(10)
 
 
-print 'version update'	
+print 'version update1'	
