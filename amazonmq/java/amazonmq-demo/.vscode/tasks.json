@@ -1,0 +1,22 @@
+{
+    "taskName": "java compile",   
+    "type": "shell",
+
+    /*
+    "command": "mvn -B compile",
+    "args":{},
+    */
+
+    "command": "javac",
+    
+    "args": [ 
+        "-cp",
+        "C:\\Users\\jang_junyeop\\.m2\\repository\\org\\apache\\commons\\commons-pool2\\2.5.0\\*;C:\\Users\\jang_junyeop\\.m2\\repository\\org\\apache\\activemq\\activemq-all\\5.15.0\\*;.",
+        "${file}"
+    ],
+
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}

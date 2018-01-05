@@ -17,7 +17,7 @@ class MyListener(stomp.ConnectionListener):
 		print 'lost connection'
 
 
-conn = stomp.Connection([('b-04b4eb30-c958-4da7-9e58-78e581a1eae1-1.mq.us-east-1.amazonaws.com',61614)])
+conn = stomp.Connection([('b-9ed7ac09-27d9-47f9-8bf7-bcd052d7ee2a-1.mq.us-east-1.amazonaws.com',61614)])
 print('set up Connection')
 print conn
 
@@ -27,8 +27,9 @@ print('set up Listener')
 conn.start()
 print('started connection')
 
-# conn.connect('service','tkfkddmldhkd123')
-conn.connect()
+conn.connect('admin', 'wnsduq123456')
+#conn.connect(wait=True)
+
 print('connected!')
 
 """
@@ -39,7 +40,7 @@ except Exception, e:
 	print e
 """
 
-res = conn.send(destination='/test-stomp', body='This is message',id=1)
+res = conn.send(destination='/stomp', body='This is message',id=1)
 print res
 conn.disconnect()
 
