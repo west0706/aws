@@ -67,7 +67,7 @@ public class App
             System.out.println(i);
 
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (Exception e) {
                 //TODO: handle exception
             }

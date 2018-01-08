@@ -13,7 +13,7 @@
             "console": "internalConsole",
             "stopOnEntry": false,
             "mainClass": "com.amazon.amazonmq.App",
-            "projectName": "amazonmq-demo",
+            "projectName": "amazonmq",
             
             "args": ""
 
