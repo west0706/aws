@@ -1,0 +1,23 @@
+{
+    "taskName": "java compile",   
+    "type": "shell",
+
+    
+    //"command": "mvn -B compile",
+    //"args":[],
+    
+
+    "command": "javac",
+    
+    "args": [ 
+        "-classpath",
+        //"C:\\Users\\jang_junyeop\\.m2\\repository\\org\\apache\\commons\\commons-pool2\\2.5.0\\*;C:\\Users\\jang_junyeop\\.m2\\repository\\org\\apache\\activemq\\activemq-all\\5.15.0\\*;.",
+        "/Users/junyeopjang/.m2/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar:/Users/junyeopjang/.m2/repository/org/apache/activemq/activemq-all/5.15.0/activemq-all-5.15.0.jar:.",
+        "${file}"
+    ],
+
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}

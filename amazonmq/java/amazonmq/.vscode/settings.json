@@ -1,5 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
     "git.ignoreLimitWarning": true,
-    "java.home": "C:\\Program Files\\Java/jdk1.8.0_151\\bin"
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin"
 }
