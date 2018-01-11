@@ -77,7 +77,9 @@ public class App
 
         producer.close();
         producerSession.close();
-        producerConnection.close();        
+        producerConnection.close();   
+        
+        System.out.println("End");
     }
 }
 
