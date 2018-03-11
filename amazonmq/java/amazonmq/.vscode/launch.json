@@ -9,7 +9,7 @@
             "name": "Java",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            //"program": "${workspaceFolder}/src/main/java/com/amazon/amazonmq/App",
+            "program": "${workspaceFolder}/src/main/java/",
             "console": "internalConsole",
             "stopOnEntry": false,
             "mainClass": "com.amazon.amazonmq.App",
