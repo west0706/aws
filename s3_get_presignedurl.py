@@ -5,8 +5,8 @@ import boto3
 # emdp-qd-s3-admin
 s3 = boto3.client(
 	's3',
-	aws_access_key_id='AKIAJV5BOKVSIXYG42NQ',
-	aws_secret_access_key='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'
+	aws_access_key_id='',
+	aws_secret_access_key=''
 	)
 
 
