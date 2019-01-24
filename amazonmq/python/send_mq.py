@@ -27,7 +27,7 @@ print('set up Listener')
 conn.start()
 print('started connection')
 
-conn.connect('admin', 'wnsduq123456')
+conn.connect('admin', 'xxxx')
 #conn.connect(wait=True)
 
 print('connected!')
